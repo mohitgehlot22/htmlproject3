@@ -1,0 +1,233 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	color: inherit;
+	text-decoration: none;
+}
+html{
+	scroll-behavior: smooth;
+}
+.right{
+		width: 50px;
+		height: 200px;
+		position: fixed;
+		right: 0px;
+		top:250px;
+}
+.icon_3{
+		width: 20px;
+		height: 25px;
+		font-size: 30px;
+		font-weight: bold;
+		padding: 15px 5px;
+		line-height: 60px;
+
+}
+.bot{
+		width: 30px;
+		border-radius: 50%;
+		font-weight: bold;
+		border: 2px solid ;
+		font-size: 30px;
+		text-align: center;
+		position: absolute;
+		right: 150px;
+		top: 110px;
+		text-align: centern;
+}
+
+.icon{
+		width:200px;
+		position: relative;
+
+		
+}
+.icon_1{
+		width: 50px;
+		position:fixed;
+		left:10px;
+		top:100px;
+		border: 5px solid ;
+		border-radius:50%;
+		text-align: center;
+		font-size: 45px;
+		font-weight: bold;
+}
+.icon_2{
+		width:200px;
+		position: absolute;
+		top: 120px;
+		position: fixed;
+		transition:5s;
+		opacity: 0;		
+
+}
+.icon:hover .icon_2{	
+		opacity: 1;
+		width:190px ;
+		background: rgba(0, 0, 0, 0.4);
+		font-size: 20px;
+		color: white;
+		line-height: 50px;	
+}
+
+
+.main_parent{
+			width: 75%;
+			margin: auto;
+}
+.main{
+		width:100%;
+		margin: auto;
+		background:url(../images/headerbg.jpg) center top fixed;
+		background-size: cover;
+}
+.hedar{
+		width:100%;
+
+}
+.images{
+		width: 95%;
+		padding: 15px;
+		
+}
+.images_1{
+			display:inline-block;
+			width:20%;
+			margin-left: 55%;
+
+}
+.images_1 img{
+				width:50%;
+				height:90px;
+
+}
+.images_2{
+			width: 20%;
+			display: inline-block;
+			padding-top: 20px;
+			
+}
+.images_2 img{
+			width:100%;
+			height:150px;
+}
+
+.menu{
+		border-top:#182d55 14px solid;
+		margin-top:1000px;
+		padding-bottom: 390px;
+		border-bottom: 40px solid #182d55;
+}
+.menu ul{
+		width: 100%;
+		text-align: center;
+		margin-top: 30px;
+}
+.menu ul li{
+			display: inline-block;
+			padding: 10px;
+			text-align: center;
+			font-weight: bolder;
+			color: white;
+			text-decoration:underline;
+			border-right:3px solid white;
+}
+.menu ul li:nth-child(5){
+					border-right: none;
+}
+
+.ovarley{
+			background-color:rgba(0, 0, 0, 0.5);			
+}
+
+/*hedar closad*/
+
+.menu_f_img{
+		width: 100%;
+		background:#182d55 url(../images/helicopters.jpg) no-repeat center top;
+		padding-bottom:220px;		
+}
+.Aerial_Applicators{
+		width: 100%;
+		background: url(../images/frameimg1.jpg) center center fixed;
+		background-size: cover;
+}
+
+.contand{
+	width: 100%;
+}
+.m{
+	padding:130px 0px;
+	margin-left: 100px;
+}
+.div{
+	width:20%;
+	border:2px solid white;
+	display: inline-block;
+	margin: -2px;
+}
+.div :nth-child(1){
+				
+}
+.div_1{
+		width: 40%;
+		font-weight: bold;
+		font-size: 25px;
+		border:5px solid white;
+		text-align: center;
+		color: white;
+		display: inline-block;
+		margin: -1px;
+		padding: 5px;
+}
+
+.contand{
+			width: 100%;
+			text-align: center;
+			padding: 10px;
+			background-color: white;
+}
+.contand p{
+			font-size: 20px;
+			line-height: 35px;
+			width: 100%;
+			color: darkblue;
+			padding-top: 60px;
+}
+.p_img{
+		padding:60px 0px;
+
+}
+
+.contand a{
+			text-decoration: underline;
+			font-size: 25px;
+			font-weight: bolder;
+}
+
+.Helicopter_Services{
+					width: 100%;
+					background:url(../images/frameimg2.jpg) 50% 0 no-repeat fixed;
+					background-size: cover;
+}
+
+.Flight{
+		width: 100%;
+		background:url(../images/frameimg3.jpg) 50% 50% no-repeat fixed;
+		background-size: cover;	
+}
+
+.Charters{
+		width: 100%;
+		background:url(../images/frameimg4.jpg) 50% 50% no-repeat fixed;
+		background-size: cover;
+}
+
+.Contact{
+		width: 100%;
+		background:url(../images/frameimg5.jpg) 50% 50% no-repeat fixed;
+		background-size: cover;	
+}
+
+
